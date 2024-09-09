@@ -1,6 +1,6 @@
 variable "credentials" {
   description = "My Credentials"
-  default     = "./keys/my_tera_cred.json"
+  default     = "../.gcp/my_tera_cred.json"
 }
 
 variable "project" {
